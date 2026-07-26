@@ -21,6 +21,10 @@
   },
   "dependencies": {
     "@finops-tools/core": "workspace:*",
+    "command-line-args": "^6.0.2",
     "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/command-line-args": "^5.2.3"
   }
 }

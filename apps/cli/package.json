@@ -1,0 +1,22 @@
+{
+  "name": "@finops-tools/cli",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "Vladimir Miasnikov"
+  },
+  "bin": {
+    "finops": "./dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "tsc -b --clean",
+    "start": "node ./dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@finops-tools/core": "workspace:*"
+  }
+}
